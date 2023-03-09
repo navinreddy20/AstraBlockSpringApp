@@ -1,0 +1,9 @@
+astra:
+  token: "AstraCS:lCEkcqoBkamBRqxOwrCgfIUi:5e0257587b0468b23df8763b03f2787562f94e514710250e770c48a3ac6155e5"
+  db:
+    id: "e982c575-8c5e-45fc-be40-4605d4880b36"
+    region: "us-west-2"
+    keyspace: "ethereum"
+
+server:
+  port:8080
