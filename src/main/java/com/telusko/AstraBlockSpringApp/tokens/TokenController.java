@@ -33,15 +33,6 @@ public class TokenController {
         }
         return ResponseEntity.ok(token.get());
     }
-    @GetMapping("name/{name}")
-    public ResponseEntity<Token> findByName(@PathVariable(value = "name") BigInteger number) {
-        List<Token> tokens = tokenRepository.findOneByBlockNumber(number.longValue());
-        if (tokens.isEmpty()) {
-            return ResponseEntity.notFound().build();
-        }
-        return ResponseEntity.ok(tokens.get(0));
-    }
-
 
 
 }

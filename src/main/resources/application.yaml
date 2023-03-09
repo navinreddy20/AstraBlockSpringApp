@@ -1,0 +1,10 @@
+astra:
+  token: "<token>"
+  db:
+    id: "<database id>"
+    region: "<region>"
+    keyspace: "<keyspace name>"
+
+server:
+  port:8080
+
